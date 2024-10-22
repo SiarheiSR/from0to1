@@ -75,6 +75,10 @@ input[type="submit"] {
 }
 
 @media (hover: hover) and (pointer: fine) {
+<<<<<<< HEAD
+=======
+	a,
+>>>>>>> 2df2f004a072853395142c4ad9daffdf943e81ce
 	button,
 	input,
 	label {
