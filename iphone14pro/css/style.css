@@ -1,0 +1,103 @@
+@font-face {
+	font-family: Inter;
+	src: url('../fonts/Inter-Regular.woff2') format('woff2');
+	src: url('../fonts/Inter-Regular.woff') format('woff');
+	src: url('../fonts/Inter-Regular.ttf') format('truetype');
+	font-display: swap;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Inter-Bold;
+	src: url('../fonts/Inter-Bold.woff2') format('woff2');
+	src: url('../fonts/Inter-Bold.woff') format('woff');
+	src: url('../fonts/Inter-Bold.ttf') format('truetype');
+	font-display: swap;
+	font-style: normal;
+	font-weight: 700;
+}
+
+body {
+	font-family: Inter, sans-serif;
+	font-size: 1.4rem;
+	color: #0a0a0a;
+	background: #fff;
+
+}
+
+/* !-----------------------HEADER------------------------ */
+
+.header {
+	background: #0a0a0a;
+}
+.container {
+	max-width: 1220px;
+	margin: 0 auto;
+	padding: 32px 10px 32px;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.burger__btn {
+	display: none;
+}
+
+.header__menu {
+	display: flex;
+	flex-grow: 1;
+	flex-basis: 0;
+	font-size: 2.4rem;
+	line-height: 29px;
+	color: #717171;
+}
+
+.menu__item:not(:last-child) {
+	margin-right: 30px;
+}
+
+.logo {
+	width: 40px;
+	height: 49px;
+}
+
+.header__phone {
+	flex-grow: 1;
+	flex-basis: 0;
+	font-size: 2.4rem;
+	line-height: 29px;
+	color: #717171;
+	text-align: right;
+}
+
+/* !-----------------------HERO------------------------ */
+
+
+
+/* !-----------------------NEW------------------------ */
+
+
+
+/* !-----------------------COLOR------------------------ */
+
+
+
+/* !-----------------------FORM------------------------ */
+
+
+
+/* !-----------------------FOOTER------------------------ */
+
+
+
+/* !-----------------------MEDIA------------------------ */
+
+@media (max-width: 940px) {
+	.burger__btn {
+		display: inline-block;
+	}
+}
